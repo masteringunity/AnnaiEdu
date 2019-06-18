@@ -2,6 +2,76 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "DynamicData/6.10.0.2604": {
+        "type": "package",
+        "dependencies": {
+          "System.Reactive": "4.1.5"
+        },
+        "compile": {
+          "lib/netstandard2.0/DynamicData.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/DynamicData.dll": {}
+        }
+      },
+      "ReactiveUI/9.17.4": {
+        "type": "package",
+        "dependencies": {
+          "DynamicData": "6.10.0.2604",
+          "Splat": "7.3.5",
+          "System.Reactive": "4.1.5"
+        },
+        "compile": {
+          "lib/xamarinios10/ReactiveUI.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/ReactiveUI.dll": {}
+        }
+      },
+      "Splat/7.3.5": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/xamarinios10/Splat.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Splat.dll": {}
+        }
+      },
+      "System.Reactive/4.1.5": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.WindowsRuntime": "4.3.0",
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reactive.dll": {}
+        }
+      },
+      "System.Runtime.InteropServices.WindowsRuntime/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios1/_._": {},
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
       "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "compile": {
@@ -140,6 +210,76 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "DynamicData/6.10.0.2604": {
+        "type": "package",
+        "dependencies": {
+          "System.Reactive": "4.1.5"
+        },
+        "compile": {
+          "lib/netstandard2.0/DynamicData.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/DynamicData.dll": {}
+        }
+      },
+      "ReactiveUI/9.17.4": {
+        "type": "package",
+        "dependencies": {
+          "DynamicData": "6.10.0.2604",
+          "Splat": "7.3.5",
+          "System.Reactive": "4.1.5"
+        },
+        "compile": {
+          "lib/xamarinios10/ReactiveUI.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/ReactiveUI.dll": {}
+        }
+      },
+      "Splat/7.3.5": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/xamarinios10/Splat.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Splat.dll": {}
+        }
+      },
+      "System.Reactive/4.1.5": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.WindowsRuntime": "4.3.0",
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reactive.dll": {}
+        }
+      },
+      "System.Runtime.InteropServices.WindowsRuntime/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios1/_._": {},
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
       "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "compile": {
@@ -278,6 +418,76 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "DynamicData/6.10.0.2604": {
+        "type": "package",
+        "dependencies": {
+          "System.Reactive": "4.1.5"
+        },
+        "compile": {
+          "lib/netstandard2.0/DynamicData.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/DynamicData.dll": {}
+        }
+      },
+      "ReactiveUI/9.17.4": {
+        "type": "package",
+        "dependencies": {
+          "DynamicData": "6.10.0.2604",
+          "Splat": "7.3.5",
+          "System.Reactive": "4.1.5"
+        },
+        "compile": {
+          "lib/xamarinios10/ReactiveUI.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/ReactiveUI.dll": {}
+        }
+      },
+      "Splat/7.3.5": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/xamarinios10/Splat.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Splat.dll": {}
+        }
+      },
+      "System.Reactive/4.1.5": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.WindowsRuntime": "4.3.0",
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reactive.dll": {}
+        }
+      },
+      "System.Runtime.InteropServices.WindowsRuntime/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios1/_._": {},
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
       "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "compile": {
@@ -416,6 +626,76 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "DynamicData/6.10.0.2604": {
+        "type": "package",
+        "dependencies": {
+          "System.Reactive": "4.1.5"
+        },
+        "compile": {
+          "lib/netstandard2.0/DynamicData.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/DynamicData.dll": {}
+        }
+      },
+      "ReactiveUI/9.17.4": {
+        "type": "package",
+        "dependencies": {
+          "DynamicData": "6.10.0.2604",
+          "Splat": "7.3.5",
+          "System.Reactive": "4.1.5"
+        },
+        "compile": {
+          "lib/xamarinios10/ReactiveUI.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/ReactiveUI.dll": {}
+        }
+      },
+      "Splat/7.3.5": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/xamarinios10/Splat.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Splat.dll": {}
+        }
+      },
+      "System.Reactive/4.1.5": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.WindowsRuntime": "4.3.0",
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reactive.dll": {}
+        }
+      },
+      "System.Runtime.InteropServices.WindowsRuntime/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios1/_._": {},
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
       "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "compile": {
@@ -555,6 +835,206 @@
     }
   },
   "libraries": {
+    "DynamicData/6.10.0.2604": {
+      "sha512": "6V+W0dKJbUHIogo58OfvQUExlCoRwiokfMhz1PUAvmdwiLb6BR2DNnbXIIsn8Gbt5glqvPdRKrMCV64J8Z9dpw==",
+      "type": "package",
+      "path": "dynamicdata/6.10.0.2604",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dynamicdata.6.10.0.2604.nupkg.sha512",
+        "dynamicdata.nuspec",
+        "lib/net46/DynamicData.dll",
+        "lib/net46/DynamicData.xml",
+        "lib/netstandard2.0/DynamicData.dll",
+        "lib/netstandard2.0/DynamicData.xml",
+        "lib/uap10.0.16299/DynamicData.dll",
+        "lib/uap10.0.16299/DynamicData.pri",
+        "lib/uap10.0.16299/DynamicData.xml",
+        "lib/uap10.0/DynamicData.dll",
+        "lib/uap10.0/DynamicData.pri",
+        "lib/uap10.0/DynamicData.xml"
+      ]
+    },
+    "ReactiveUI/9.17.4": {
+      "sha512": "gP8JRdeYYN/CLEe/KxvG1KUm59a5QRfd+32UEbiz8E03/dBMRJSyWQTX8zndw66se2wJFdXdiJyXShiWbxnleQ==",
+      "type": "package",
+      "path": "reactiveui/9.17.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE/LICENSE",
+        "lib/monoandroid81/ReactiveUI.dll",
+        "lib/monoandroid81/ReactiveUI.xml",
+        "lib/net461/ReactiveUI.dll",
+        "lib/net461/ReactiveUI.xml",
+        "lib/netcoreapp2.0/ReactiveUI.dll",
+        "lib/netcoreapp2.0/ReactiveUI.xml",
+        "lib/netstandard2.0/ReactiveUI.dll",
+        "lib/netstandard2.0/ReactiveUI.xml",
+        "lib/tizen40/ReactiveUI.dll",
+        "lib/tizen40/ReactiveUI.xml",
+        "lib/uap10.0.17763/ReactiveUI.dll",
+        "lib/uap10.0.17763/ReactiveUI.pri",
+        "lib/uap10.0.17763/ReactiveUI.xml",
+        "lib/xamarinios10/ReactiveUI.dll",
+        "lib/xamarinios10/ReactiveUI.xml",
+        "lib/xamarinmac20/ReactiveUI.dll",
+        "lib/xamarinmac20/ReactiveUI.xml",
+        "lib/xamarintvos10/ReactiveUI.dll",
+        "lib/xamarintvos10/ReactiveUI.xml",
+        "reactiveui.9.17.4.nupkg.sha512",
+        "reactiveui.nuspec"
+      ]
+    },
+    "Splat/7.3.5": {
+      "sha512": "tpamqFZFJQtp3qM2MmX9outfwSC9nbJw1BXuaLIfEOJGRgCVpXX3ge1Ze8EhmQIMYX6l4Daeiv2d1OwtaYgqYw==",
+      "type": "package",
+      "path": "splat/7.3.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE/LICENSE",
+        "lib/monoandroid81/Splat.dll",
+        "lib/monoandroid81/Splat.xml",
+        "lib/net461/Splat.dll",
+        "lib/net461/Splat.xml",
+        "lib/netstandard2.0/Splat.dll",
+        "lib/netstandard2.0/Splat.xml",
+        "lib/tizen40/Splat.dll",
+        "lib/tizen40/Splat.xml",
+        "lib/uap10.0.17763/Splat.dll",
+        "lib/uap10.0.17763/Splat.pri",
+        "lib/uap10.0.17763/Splat.xml",
+        "lib/xamarinios10/Splat.dll",
+        "lib/xamarinios10/Splat.xml",
+        "lib/xamarinmac20/Splat.dll",
+        "lib/xamarinmac20/Splat.xml",
+        "lib/xamarintvos10/Splat.dll",
+        "lib/xamarintvos10/Splat.xml",
+        "lib/xamarinwatchos10/Splat.dll",
+        "lib/xamarinwatchos10/Splat.xml",
+        "splat.7.3.5.nupkg.sha512",
+        "splat.nuspec"
+      ]
+    },
+    "System.Reactive/4.1.5": {
+      "sha512": "guil0zF8UboWgGaAxgD5LxL8ZGamrkSo/HLsROaUCAUlSrnBhz0McOGwY1CcnP00pvwt6q40EMs3ErhCOXsqfw==",
+      "type": "package",
+      "path": "system.reactive/4.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/System.Reactive.dll",
+        "lib/net46/System.Reactive.xml",
+        "lib/netstandard2.0/System.Reactive.dll",
+        "lib/netstandard2.0/System.Reactive.xml",
+        "lib/uap10.0.16299/System.Reactive.dll",
+        "lib/uap10.0.16299/System.Reactive.pri",
+        "lib/uap10.0.16299/System.Reactive.xml",
+        "lib/uap10.0/System.Reactive.dll",
+        "lib/uap10.0/System.Reactive.pri",
+        "lib/uap10.0/System.Reactive.xml",
+        "system.reactive.4.1.5.nupkg.sha512",
+        "system.reactive.nuspec"
+      ]
+    },
+    "System.Runtime.InteropServices.WindowsRuntime/4.3.0": {
+      "sha512": "J4GUi3xZQLUBasNwZnjrffN8i5wpHrBtZoLG+OhRyGo/+YunMRWWtwoMDlUAIdmX0uRfpHIBDSV6zyr3yf00TA==",
+      "type": "package",
+      "path": "system.runtime.interopservices.windowsruntime/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "lib/netstandard1.3/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios1/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "ref/netcore50/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcore50/de/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcore50/es/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcore50/fr/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcore50/it/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcore50/ja/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcore50/ko/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcore50/ru/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcore50/zh-hans/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcore50/zh-hant/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netstandard1.0/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "ref/netstandard1.0/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netstandard1.0/de/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netstandard1.0/es/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netstandard1.0/fr/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netstandard1.0/it/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netstandard1.0/ja/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netstandard1.0/ko/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netstandard1.0/ru/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netstandard1.0/zh-hans/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netstandard1.0/zh-hant/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
+        "system.runtime.interopservices.windowsruntime.nuspec"
+      ]
+    },
+    "System.Threading.Tasks.Extensions/4.5.2": {
+      "sha512": "BG/TNxDFv0svAzx8OiMXDlsHfGw623BZ8tCXw4YLhDFDvDhNUEV58jKYMGRnkbJNm7c3JNNJDiN7JBMzxRBR2w==",
+      "type": "package",
+      "path": "system.threading.tasks.extensions/4.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netcoreapp2.1/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.extensions.4.5.2.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "Xamarin.Forms/3.4.0.1008975": {
       "sha512": "tM9syeev45u92OFENGjq+Zw8WiEwLJFiXe317XpL9SY2RRk9sm2fc1lDVjzwz0da+5ZP5fi24NAPsPQdxBdMwQ==",
       "type": "package",
@@ -711,6 +1191,7 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "AnnaiEdu >= 1.0.0",
+      "ReactiveUI >= 9.17.4",
       "Xamarin.Forms >= 3.4.0.1008975"
     ]
   },
@@ -751,6 +1232,10 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "ReactiveUI": {
+            "target": "Package",
+            "version": "[9.17.4, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[3.4.0.1008975, )"
