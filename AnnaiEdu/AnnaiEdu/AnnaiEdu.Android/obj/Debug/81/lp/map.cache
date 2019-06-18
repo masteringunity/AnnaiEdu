@@ -1,6 +1,13 @@
 AnnaiEdu
-System.Runtime
 FormsViewGroup
+ReactiveUI
+ReactiveUI.XamForms
+Splat
+System.Reactive.Core
+System.Reactive.Interfaces
+System.Reactive.Linq
+System.Reactive.PlatformServices
+System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common
 Xamarin.Android.Arch.Lifecycle.Runtime
@@ -24,7 +31,8 @@ Xamarin.Forms.Core
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
-DynamicData
-ReactiveUI
-Splat
-System.Reactive
+netstandard
+System.ComponentModel
+System.Resources.ResourceManager
+System.Diagnostics.Tools
+System.Runtime.InteropServices.WindowsRuntime
