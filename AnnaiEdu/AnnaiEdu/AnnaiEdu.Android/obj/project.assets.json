@@ -442,7 +442,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.4.0.1008975"
+          "Xamarin.Forms": "3.4.0.1008975",
+          "reactiveui-xamforms": "7.4.0"
         },
         "compile": {
           "bin/placeholder/AnnaiEdu.dll": {}

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AnnaiEdu.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,9 +12,9 @@ namespace AnnaiEdu
         {
             InitializeComponent();
 
-            //MainPage = new MainPage();
+            MainPage = new LoginPage();
         }
-
+                            
         protected override void OnStart()
         {
             // Handle when your app starts

@@ -55,3 +55,13 @@ C:\Xamarin\AnnaiEdu\AnnaiEdu\AnnaiEdu\AnnaiEdu.iOS\obj\iPhoneSimulator\Debug\Xam
 C:\Xamarin\AnnaiEdu\AnnaiEdu\AnnaiEdu\AnnaiEdu.iOS\obj\iPhoneSimulator\Debug\AnnaiEdu.iOS.csproj.CopyComplete
 C:\Xamarin\AnnaiEdu\AnnaiEdu\AnnaiEdu\AnnaiEdu.iOS\obj\iPhoneSimulator\Debug\AnnaiEdu.iOS.exe
 C:\Xamarin\AnnaiEdu\AnnaiEdu\AnnaiEdu\AnnaiEdu.iOS\obj\iPhoneSimulator\Debug\AnnaiEdu.iOS.pdb
+C:\Xamarin\AnnaiEdu\AnnaiEdu\AnnaiEdu\AnnaiEdu.iOS\bin\iPhoneSimulator\Debug\ReactiveUI.dll
+C:\Xamarin\AnnaiEdu\AnnaiEdu\AnnaiEdu\AnnaiEdu.iOS\bin\iPhoneSimulator\Debug\ReactiveUI.pdb
+C:\Xamarin\AnnaiEdu\AnnaiEdu\AnnaiEdu\AnnaiEdu.iOS\bin\iPhoneSimulator\Debug\ReactiveUI.XamForms.dll
+C:\Xamarin\AnnaiEdu\AnnaiEdu\AnnaiEdu\AnnaiEdu.iOS\bin\iPhoneSimulator\Debug\ReactiveUI.XamForms.pdb
+C:\Xamarin\AnnaiEdu\AnnaiEdu\AnnaiEdu\AnnaiEdu.iOS\bin\iPhoneSimulator\Debug\System.Reactive.Core.dll
+C:\Xamarin\AnnaiEdu\AnnaiEdu\AnnaiEdu\AnnaiEdu.iOS\bin\iPhoneSimulator\Debug\System.Reactive.Interfaces.dll
+C:\Xamarin\AnnaiEdu\AnnaiEdu\AnnaiEdu\AnnaiEdu.iOS\bin\iPhoneSimulator\Debug\System.Reactive.Linq.dll
+C:\Xamarin\AnnaiEdu\AnnaiEdu\AnnaiEdu\AnnaiEdu.iOS\bin\iPhoneSimulator\Debug\System.Reactive.PlatformServices.dll
+C:\Xamarin\AnnaiEdu\AnnaiEdu\AnnaiEdu\AnnaiEdu.iOS\bin\iPhoneSimulator\Debug\Splat.dll
+C:\Xamarin\AnnaiEdu\AnnaiEdu\AnnaiEdu\AnnaiEdu.iOS\bin\iPhoneSimulator\Debug\AnnaiEdu.dll.mdb

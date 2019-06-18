@@ -1,7 +1,6 @@
 C:\Xamarin\AnnaiEdu\AnnaiEdu\AnnaiEdu\AnnaiEdu\bin\Debug\netstandard2.0\AnnaiEdu.deps.json
 C:\Xamarin\AnnaiEdu\AnnaiEdu\AnnaiEdu\AnnaiEdu\bin\Debug\netstandard2.0\AnnaiEdu.dll
 C:\Xamarin\AnnaiEdu\AnnaiEdu\AnnaiEdu\AnnaiEdu\bin\Debug\netstandard2.0\AnnaiEdu.pdb
-C:\Xamarin\AnnaiEdu\AnnaiEdu\AnnaiEdu\AnnaiEdu\obj\Debug\netstandard2.0\AnnaiEdu.csprojAssemblyReference.cache
 C:\Xamarin\AnnaiEdu\AnnaiEdu\AnnaiEdu\AnnaiEdu\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Xamarin\AnnaiEdu\AnnaiEdu\AnnaiEdu\AnnaiEdu\obj\Debug\netstandard2.0\AnnaiEdu.csproj.CoreCompileInputs.cache
 C:\Xamarin\AnnaiEdu\AnnaiEdu\AnnaiEdu\AnnaiEdu\obj\Debug\netstandard2.0\AnnaiEdu.AssemblyInfoInputs.cache
@@ -9,3 +8,5 @@ C:\Xamarin\AnnaiEdu\AnnaiEdu\AnnaiEdu\AnnaiEdu\obj\Debug\netstandard2.0\AnnaiEdu
 C:\Xamarin\AnnaiEdu\AnnaiEdu\AnnaiEdu\AnnaiEdu\obj\Debug\netstandard2.0\AnnaiEdu.dll
 C:\Xamarin\AnnaiEdu\AnnaiEdu\AnnaiEdu\AnnaiEdu\obj\Debug\netstandard2.0\AnnaiEdu.pdb
 C:\Xamarin\AnnaiEdu\AnnaiEdu\AnnaiEdu\AnnaiEdu\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Xamarin\AnnaiEdu\AnnaiEdu\AnnaiEdu\AnnaiEdu\obj\Debug\netstandard2.0\AnnaiEdu.csprojAssemblyReference.cache
+C:\Xamarin\AnnaiEdu\AnnaiEdu\AnnaiEdu\AnnaiEdu\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
