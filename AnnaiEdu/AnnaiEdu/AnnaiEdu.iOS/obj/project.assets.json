@@ -199,6 +199,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ReactiveUI": "9.17.4",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "compile": {
@@ -407,6 +408,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ReactiveUI": "9.17.4",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "compile": {
@@ -615,6 +617,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ReactiveUI": "9.17.4",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "compile": {
@@ -823,6 +826,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ReactiveUI": "9.17.4",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "compile": {

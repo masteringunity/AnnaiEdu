@@ -10,6 +10,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="ReactiveUI" Version="9.17.4" />
     <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Views\" />
+    <Folder Include="ViewModels\" />
   </ItemGroup>
 </Project>
